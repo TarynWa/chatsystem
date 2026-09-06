@@ -1,1 +1,8 @@
 build/
+lib/
+third_party/
+cmake-build-*/
+*.o
+*.a
+*.so
+.vscode/
