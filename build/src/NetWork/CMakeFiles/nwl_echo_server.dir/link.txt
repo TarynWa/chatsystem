@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/nwl_echo_server.dir/link.d CMakeFiles/nwl_echo_server.dir/examples/echo_server_nwl.cpp.o -o nwl_echo_server  -Wl,-rpath,/home/wangt/chat/lib /home/wangt/chat/lib/libnwl.so /home/wangt/chat/lib/libmuduo_log.so

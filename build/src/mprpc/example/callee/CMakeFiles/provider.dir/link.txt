@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/provider.dir/link.d CMakeFiles/provider.dir/userservice.cpp.o CMakeFiles/provider.dir/__/user.pb.cc.o -o provider  -Wl,-rpath,/home/wangt/chat/lib /home/wangt/chat/lib/libmprpc.so -lprotobuf /home/wangt/chat/third_party/muduo-pic/lib/libmuduo_net.a /home/wangt/chat/third_party/muduo-pic/lib/libmuduo_base.a -lprotobuf -lzookeeper_mt
