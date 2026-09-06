@@ -95,16 +95,10 @@ clean: src/mprpc/clean
 
 # Recursive "all" directory target.
 src/NetWork/all: src/NetWork/CMakeFiles/nwl.dir/all
-src/NetWork/all: src/NetWork/CMakeFiles/nwl_smoke.dir/all
-src/NetWork/all: src/NetWork/CMakeFiles/nwl_echo_server.dir/all
-src/NetWork/all: src/NetWork/CMakeFiles/nwl_bench_client.dir/all
 .PHONY : src/NetWork/all
 
 # Recursive "codegen" directory target.
 src/NetWork/codegen: src/NetWork/CMakeFiles/nwl.dir/codegen
-src/NetWork/codegen: src/NetWork/CMakeFiles/nwl_smoke.dir/codegen
-src/NetWork/codegen: src/NetWork/CMakeFiles/nwl_echo_server.dir/codegen
-src/NetWork/codegen: src/NetWork/CMakeFiles/nwl_bench_client.dir/codegen
 .PHONY : src/NetWork/codegen
 
 # Recursive "preinstall" directory target.
@@ -113,9 +107,6 @@ src/NetWork/preinstall:
 
 # Recursive "clean" directory target.
 src/NetWork/clean: src/NetWork/CMakeFiles/nwl.dir/clean
-src/NetWork/clean: src/NetWork/CMakeFiles/nwl_smoke.dir/clean
-src/NetWork/clean: src/NetWork/CMakeFiles/nwl_echo_server.dir/clean
-src/NetWork/clean: src/NetWork/CMakeFiles/nwl_bench_client.dir/clean
 .PHONY : src/NetWork/clean
 
 #=============================================================================
@@ -324,111 +315,13 @@ src/NetWork/CMakeFiles/nwl.dir/clean:
 .PHONY : src/NetWork/CMakeFiles/nwl.dir/clean
 
 #=============================================================================
-# Target rules for target src/NetWork/CMakeFiles/nwl_smoke.dir
-
-# All Build rule for target.
-src/NetWork/CMakeFiles/nwl_smoke.dir/all: src/logsystem/CMakeFiles/muduo_log.dir/all
-src/NetWork/CMakeFiles/nwl_smoke.dir/all: src/NetWork/CMakeFiles/nwl.dir/all
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=41,42 "Built target nwl_smoke"
-.PHONY : src/NetWork/CMakeFiles/nwl_smoke.dir/all
-
-# Build rule for subdir invocation for target.
-src/NetWork/CMakeFiles/nwl_smoke.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 23
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NetWork/CMakeFiles/nwl_smoke.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
-.PHONY : src/NetWork/CMakeFiles/nwl_smoke.dir/rule
-
-# Convenience name for target.
-nwl_smoke: src/NetWork/CMakeFiles/nwl_smoke.dir/rule
-.PHONY : nwl_smoke
-
-# codegen rule for target.
-src/NetWork/CMakeFiles/nwl_smoke.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=41,42 "Finished codegen for target nwl_smoke"
-.PHONY : src/NetWork/CMakeFiles/nwl_smoke.dir/codegen
-
-# clean rule for target.
-src/NetWork/CMakeFiles/nwl_smoke.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/clean
-.PHONY : src/NetWork/CMakeFiles/nwl_smoke.dir/clean
-
-#=============================================================================
-# Target rules for target src/NetWork/CMakeFiles/nwl_echo_server.dir
-
-# All Build rule for target.
-src/NetWork/CMakeFiles/nwl_echo_server.dir/all: src/logsystem/CMakeFiles/muduo_log.dir/all
-src/NetWork/CMakeFiles/nwl_echo_server.dir/all: src/NetWork/CMakeFiles/nwl.dir/all
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=39,40 "Built target nwl_echo_server"
-.PHONY : src/NetWork/CMakeFiles/nwl_echo_server.dir/all
-
-# Build rule for subdir invocation for target.
-src/NetWork/CMakeFiles/nwl_echo_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 23
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NetWork/CMakeFiles/nwl_echo_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
-.PHONY : src/NetWork/CMakeFiles/nwl_echo_server.dir/rule
-
-# Convenience name for target.
-nwl_echo_server: src/NetWork/CMakeFiles/nwl_echo_server.dir/rule
-.PHONY : nwl_echo_server
-
-# codegen rule for target.
-src/NetWork/CMakeFiles/nwl_echo_server.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=39,40 "Finished codegen for target nwl_echo_server"
-.PHONY : src/NetWork/CMakeFiles/nwl_echo_server.dir/codegen
-
-# clean rule for target.
-src/NetWork/CMakeFiles/nwl_echo_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/clean
-.PHONY : src/NetWork/CMakeFiles/nwl_echo_server.dir/clean
-
-#=============================================================================
-# Target rules for target src/NetWork/CMakeFiles/nwl_bench_client.dir
-
-# All Build rule for target.
-src/NetWork/CMakeFiles/nwl_bench_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=37,38 "Built target nwl_bench_client"
-.PHONY : src/NetWork/CMakeFiles/nwl_bench_client.dir/all
-
-# Build rule for subdir invocation for target.
-src/NetWork/CMakeFiles/nwl_bench_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NetWork/CMakeFiles/nwl_bench_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
-.PHONY : src/NetWork/CMakeFiles/nwl_bench_client.dir/rule
-
-# Convenience name for target.
-nwl_bench_client: src/NetWork/CMakeFiles/nwl_bench_client.dir/rule
-.PHONY : nwl_bench_client
-
-# codegen rule for target.
-src/NetWork/CMakeFiles/nwl_bench_client.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=37,38 "Finished codegen for target nwl_bench_client"
-.PHONY : src/NetWork/CMakeFiles/nwl_bench_client.dir/codegen
-
-# clean rule for target.
-src/NetWork/CMakeFiles/nwl_bench_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/clean
-.PHONY : src/NetWork/CMakeFiles/nwl_bench_client.dir/clean
-
-#=============================================================================
 # Target rules for target src/threadpool/CMakeFiles/threadpool.dir
 
 # All Build rule for target.
 src/threadpool/CMakeFiles/threadpool.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/threadpool/CMakeFiles/threadpool.dir/build.make src/threadpool/CMakeFiles/threadpool.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/threadpool/CMakeFiles/threadpool.dir/build.make src/threadpool/CMakeFiles/threadpool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=46,47 "Built target threadpool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=40,41 "Built target threadpool"
 .PHONY : src/threadpool/CMakeFiles/threadpool.dir/all
 
 # Build rule for subdir invocation for target.
@@ -445,7 +338,7 @@ threadpool: src/threadpool/CMakeFiles/threadpool.dir/rule
 # codegen rule for target.
 src/threadpool/CMakeFiles/threadpool.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/threadpool/CMakeFiles/threadpool.dir/build.make src/threadpool/CMakeFiles/threadpool.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=46,47 "Finished codegen for target threadpool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=40,41 "Finished codegen for target threadpool"
 .PHONY : src/threadpool/CMakeFiles/threadpool.dir/codegen
 
 # clean rule for target.
@@ -492,7 +385,7 @@ src/mprpc/src/CMakeFiles/mprpc.dir/clean:
 src/mprpc/example/callee/CMakeFiles/provider.dir/all: src/mprpc/src/CMakeFiles/mprpc.dir/all
 	$(MAKE) $(MAKESILENT) -f src/mprpc/example/callee/CMakeFiles/provider.dir/build.make src/mprpc/example/callee/CMakeFiles/provider.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/mprpc/example/callee/CMakeFiles/provider.dir/build.make src/mprpc/example/callee/CMakeFiles/provider.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=43,44,45 "Built target provider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=37,38,39 "Built target provider"
 .PHONY : src/mprpc/example/callee/CMakeFiles/provider.dir/all
 
 # Build rule for subdir invocation for target.
@@ -509,7 +402,7 @@ provider: src/mprpc/example/callee/CMakeFiles/provider.dir/rule
 # codegen rule for target.
 src/mprpc/example/callee/CMakeFiles/provider.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/mprpc/example/callee/CMakeFiles/provider.dir/build.make src/mprpc/example/callee/CMakeFiles/provider.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=43,44,45 "Finished codegen for target provider"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=37,38,39 "Finished codegen for target provider"
 .PHONY : src/mprpc/example/callee/CMakeFiles/provider.dir/codegen
 
 # clean rule for target.

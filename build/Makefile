@@ -143,45 +143,6 @@ nwl/fast:
 .PHONY : nwl/fast
 
 #=============================================================================
-# Target rules for targets named nwl_smoke
-
-# Build rule for target.
-nwl_smoke: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nwl_smoke
-.PHONY : nwl_smoke
-
-# fast build rule for target.
-nwl_smoke/fast:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/build
-.PHONY : nwl_smoke/fast
-
-#=============================================================================
-# Target rules for targets named nwl_echo_server
-
-# Build rule for target.
-nwl_echo_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nwl_echo_server
-.PHONY : nwl_echo_server
-
-# fast build rule for target.
-nwl_echo_server/fast:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/build
-.PHONY : nwl_echo_server/fast
-
-#=============================================================================
-# Target rules for targets named nwl_bench_client
-
-# Build rule for target.
-nwl_bench_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nwl_bench_client
-.PHONY : nwl_bench_client
-
-# fast build rule for target.
-nwl_bench_client/fast:
-	$(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/build
-.PHONY : nwl_bench_client/fast
-
-#=============================================================================
 # Target rules for targets named threadpool
 
 # Build rule for target.
@@ -245,9 +206,6 @@ help:
 	@echo "... mprpc"
 	@echo "... muduo_log"
 	@echo "... nwl"
-	@echo "... nwl_bench_client"
-	@echo "... nwl_echo_server"
-	@echo "... nwl_smoke"
 	@echo "... provider"
 	@echo "... threadpool"
 .PHONY : help

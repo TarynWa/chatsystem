@@ -130,120 +130,6 @@ nwl/fast:
 	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl.dir/build.make src/NetWork/CMakeFiles/nwl.dir/build
 .PHONY : nwl/fast
 
-# Convenience name for target.
-src/NetWork/CMakeFiles/nwl_smoke.dir/rule:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NetWork/CMakeFiles/nwl_smoke.dir/rule
-.PHONY : src/NetWork/CMakeFiles/nwl_smoke.dir/rule
-
-# Convenience name for target.
-nwl_smoke: src/NetWork/CMakeFiles/nwl_smoke.dir/rule
-.PHONY : nwl_smoke
-
-# fast build rule for target.
-nwl_smoke/fast:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/build
-.PHONY : nwl_smoke/fast
-
-# Convenience name for target.
-src/NetWork/CMakeFiles/nwl_echo_server.dir/rule:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NetWork/CMakeFiles/nwl_echo_server.dir/rule
-.PHONY : src/NetWork/CMakeFiles/nwl_echo_server.dir/rule
-
-# Convenience name for target.
-nwl_echo_server: src/NetWork/CMakeFiles/nwl_echo_server.dir/rule
-.PHONY : nwl_echo_server
-
-# fast build rule for target.
-nwl_echo_server/fast:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/build
-.PHONY : nwl_echo_server/fast
-
-# Convenience name for target.
-src/NetWork/CMakeFiles/nwl_bench_client.dir/rule:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/NetWork/CMakeFiles/nwl_bench_client.dir/rule
-.PHONY : src/NetWork/CMakeFiles/nwl_bench_client.dir/rule
-
-# Convenience name for target.
-nwl_bench_client: src/NetWork/CMakeFiles/nwl_bench_client.dir/rule
-.PHONY : nwl_bench_client
-
-# fast build rule for target.
-nwl_bench_client/fast:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/build
-.PHONY : nwl_bench_client/fast
-
-examples/echo_bench_client.o: examples/echo_bench_client.cpp.o
-.PHONY : examples/echo_bench_client.o
-
-# target to build an object file
-examples/echo_bench_client.cpp.o:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/examples/echo_bench_client.cpp.o
-.PHONY : examples/echo_bench_client.cpp.o
-
-examples/echo_bench_client.i: examples/echo_bench_client.cpp.i
-.PHONY : examples/echo_bench_client.i
-
-# target to preprocess a source file
-examples/echo_bench_client.cpp.i:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/examples/echo_bench_client.cpp.i
-.PHONY : examples/echo_bench_client.cpp.i
-
-examples/echo_bench_client.s: examples/echo_bench_client.cpp.s
-.PHONY : examples/echo_bench_client.s
-
-# target to generate assembly for a file
-examples/echo_bench_client.cpp.s:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_bench_client.dir/build.make src/NetWork/CMakeFiles/nwl_bench_client.dir/examples/echo_bench_client.cpp.s
-.PHONY : examples/echo_bench_client.cpp.s
-
-examples/echo_server_nwl.o: examples/echo_server_nwl.cpp.o
-.PHONY : examples/echo_server_nwl.o
-
-# target to build an object file
-examples/echo_server_nwl.cpp.o:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/examples/echo_server_nwl.cpp.o
-.PHONY : examples/echo_server_nwl.cpp.o
-
-examples/echo_server_nwl.i: examples/echo_server_nwl.cpp.i
-.PHONY : examples/echo_server_nwl.i
-
-# target to preprocess a source file
-examples/echo_server_nwl.cpp.i:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/examples/echo_server_nwl.cpp.i
-.PHONY : examples/echo_server_nwl.cpp.i
-
-examples/echo_server_nwl.s: examples/echo_server_nwl.cpp.s
-.PHONY : examples/echo_server_nwl.s
-
-# target to generate assembly for a file
-examples/echo_server_nwl.cpp.s:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_echo_server.dir/build.make src/NetWork/CMakeFiles/nwl_echo_server.dir/examples/echo_server_nwl.cpp.s
-.PHONY : examples/echo_server_nwl.cpp.s
-
-examples/smoke_eventloop.o: examples/smoke_eventloop.cpp.o
-.PHONY : examples/smoke_eventloop.o
-
-# target to build an object file
-examples/smoke_eventloop.cpp.o:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/examples/smoke_eventloop.cpp.o
-.PHONY : examples/smoke_eventloop.cpp.o
-
-examples/smoke_eventloop.i: examples/smoke_eventloop.cpp.i
-.PHONY : examples/smoke_eventloop.i
-
-# target to preprocess a source file
-examples/smoke_eventloop.cpp.i:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/examples/smoke_eventloop.cpp.i
-.PHONY : examples/smoke_eventloop.cpp.i
-
-examples/smoke_eventloop.s: examples/smoke_eventloop.cpp.s
-.PHONY : examples/smoke_eventloop.s
-
-# target to generate assembly for a file
-examples/smoke_eventloop.cpp.s:
-	cd /home/wangt/chat/build && $(MAKE) $(MAKESILENT) -f src/NetWork/CMakeFiles/nwl_smoke.dir/build.make src/NetWork/CMakeFiles/nwl_smoke.dir/examples/smoke_eventloop.cpp.s
-.PHONY : examples/smoke_eventloop.cpp.s
-
 src/core/Channel.o: src/core/Channel.cpp.o
 .PHONY : src/core/Channel.o
 
@@ -565,18 +451,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... nwl"
-	@echo "... nwl_bench_client"
-	@echo "... nwl_echo_server"
-	@echo "... nwl_smoke"
-	@echo "... examples/echo_bench_client.o"
-	@echo "... examples/echo_bench_client.i"
-	@echo "... examples/echo_bench_client.s"
-	@echo "... examples/echo_server_nwl.o"
-	@echo "... examples/echo_server_nwl.i"
-	@echo "... examples/echo_server_nwl.s"
-	@echo "... examples/smoke_eventloop.o"
-	@echo "... examples/smoke_eventloop.i"
-	@echo "... examples/smoke_eventloop.s"
 	@echo "... src/core/Channel.o"
 	@echo "... src/core/Channel.i"
 	@echo "... src/core/Channel.s"

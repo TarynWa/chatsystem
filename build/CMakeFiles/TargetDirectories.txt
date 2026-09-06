@@ -4,9 +4,6 @@
 /home/wangt/chat/build/src/logsystem/CMakeFiles/edit_cache.dir
 /home/wangt/chat/build/src/logsystem/CMakeFiles/rebuild_cache.dir
 /home/wangt/chat/build/src/NetWork/CMakeFiles/nwl.dir
-/home/wangt/chat/build/src/NetWork/CMakeFiles/nwl_smoke.dir
-/home/wangt/chat/build/src/NetWork/CMakeFiles/nwl_echo_server.dir
-/home/wangt/chat/build/src/NetWork/CMakeFiles/nwl_bench_client.dir
 /home/wangt/chat/build/src/NetWork/CMakeFiles/edit_cache.dir
 /home/wangt/chat/build/src/NetWork/CMakeFiles/rebuild_cache.dir
 /home/wangt/chat/build/src/threadpool/CMakeFiles/threadpool.dir
