@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DTHREADED -Dmprpc_EXPORTS
 
-CXX_INCLUDES = -I/home/wangt/chat/src/mprpc/example -I/home/wangt/chat/src/mprpc/include -I/home/wangt/chat/src/mprpc/src/../include -I/home/wangt/chat/src/mprpc/src/../logsys/include -isystem /home/wangt/chat/third_party/muduo-pic/include
+CXX_INCLUDES = -I/home/wangt/chat/src/mprpc/include -I/home/wangt/chat/src/mprpc/src/../include -I/home/wangt/chat/src/NetWork/include -I/home/wangt/chat/src/logsystem/logsys/include
 
 CXX_FLAGS = -std=gnu++17 -fPIC
 

@@ -217,17 +217,40 @@ src/mprpc/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: \
  /usr/include/c++/15/bits/enable_special_members.h \
  /usr/include/c++/15/unordered_set \
  /usr/include/c++/15/bits/unordered_set.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/EventLoop.h \
- /usr/include/c++/15/atomic /usr/include/c++/15/functional \
- /usr/include/c++/15/bits/std_function.h /usr/include/c++/15/array \
- /usr/include/c++/15/compare /usr/include/boost/any.hpp \
- /usr/include/boost/any/detail/config.hpp /usr/include/boost/config.hpp \
- /usr/include/boost/config/user.hpp \
- /usr/include/boost/config/detail/select_compiler_config.hpp \
- /usr/include/boost/config/compiler/gcc.hpp \
- /usr/include/boost/config/detail/select_stdlib_config.hpp \
- /usr/include/c++/15/version \
- /usr/include/boost/config/stdlib/libstdcpp3.hpp /usr/include/unistd.h \
+ /home/wangt/chat/src/NetWork/include/nwl/EventLoop.hpp \
+ /usr/include/c++/15/atomic /usr/include/c++/15/mutex \
+ /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
+ /usr/include/c++/15/ctime /usr/include/c++/15/bits/parse_numbers.h \
+ /usr/include/c++/15/bits/std_mutex.h \
+ /usr/include/c++/15/bits/unique_lock.h /usr/include/c++/15/thread \
+ /usr/include/c++/15/bits/std_thread.h \
+ /usr/include/c++/15/bits/this_thread_sleep.h \
+ /home/wangt/chat/src/NetWork/include/nwl/Channel.hpp \
+ /usr/include/x86_64-linux-gnu/sys/epoll.h \
+ /usr/include/x86_64-linux-gnu/sys/ioctl.h \
+ /usr/include/x86_64-linux-gnu/bits/ioctls.h \
+ /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+ /usr/include/asm-generic/ioctls.h /usr/include/linux/ioctl.h \
+ /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+ /usr/include/asm-generic/ioctl.h /usr/include/linux/sockios.h \
+ /usr/include/x86_64-linux-gnu/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
+ /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+ /usr/include/x86_64-linux-gnu/bits/epoll.h \
+ /usr/include/c++/15/functional /usr/include/c++/15/bits/std_function.h \
+ /usr/include/c++/15/array /usr/include/c++/15/compare \
+ /home/wangt/chat/src/NetWork/include/nwl/Callbacks.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/Timestamp.hpp \
+ /usr/include/x86_64-linux-gnu/sys/time.h \
+ /home/wangt/chat/src/NetWork/include/nwl/Poller.hpp \
+ /home/wangt/chat/src/NetWork/include/nwl/TimerId.hpp \
+ /home/wangt/chat/src/NetWork/include/nwl/TcpServer.hpp \
+ /home/wangt/chat/src/NetWork/include/nwl/Buffer.hpp \
+ /usr/include/x86_64-linux-gnu/sys/uio.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio-ext.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -235,81 +258,38 @@ src/mprpc/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h \
- /usr/include/boost/config/detail/select_platform_config.hpp \
- /usr/include/boost/config/platform/linux.hpp \
- /usr/include/boost/config/detail/posix_features.hpp \
- /usr/include/boost/config/detail/suffix.hpp \
- /usr/include/boost/config/helper_macros.hpp \
- /usr/include/boost/config/detail/cxx_composite.hpp \
- /usr/include/boost/throw_exception.hpp \
- /usr/include/boost/exception/exception.hpp \
- /usr/include/boost/assert/source_location.hpp \
- /usr/include/boost/cstdint.hpp /usr/include/boost/config/workaround.hpp \
- /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h \
- /usr/include/boost/type_index.hpp \
- /usr/include/boost/type_index/detail/config.hpp \
- /usr/include/boost/type_index/stl_type_index.hpp \
- /usr/include/boost/type_index/type_index_facade.hpp \
- /usr/include/boost/container_hash/hash_fwd.hpp \
- /usr/include/c++/15/cxxabi.h \
- /usr/include/x86_64-linux-gnu/c++/15/bits/cxxabi_tweaks.h \
- /usr/include/boost/any/bad_any_cast.hpp /usr/include/boost/any/fwd.hpp \
- /usr/include/boost/any/detail/placeholder.hpp \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/Mutex.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/CurrentThread.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/Types.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/noncopyable.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/Timestamp.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/copyable.h \
- /usr/include/boost/operators.hpp /usr/include/c++/15/iterator \
- /usr/include/c++/15/bits/stream_iterator.h \
- /usr/include/boost/detail/workaround.hpp \
- /usr/include/boost/core/addressof.hpp \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/Callbacks.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/TimerId.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/InetAddress.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/StringPiece.h \
+ /home/wangt/chat/src/NetWork/include/nwl/InetAddress.hpp \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
  /usr/include/x86_64-linux-gnu/asm/socket.h \
  /usr/include/asm-generic/socket.h \
- /usr/include/x86_64-linux-gnu/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/TcpConnection.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/Buffer.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/Endian.h \
+ /home/wangt/chat/src/NetWork/include/nwl/TcpConnection.hpp \
+ /home/wangt/chat/src/NetWork/include/nwl/Socket.hpp \
  /usr/include/google/protobuf/descriptor.h \
  /usr/include/google/protobuf/stubs/logging.h \
  /usr/include/google/protobuf/stubs/status.h \
- /usr/include/google/protobuf/stubs/mutex.h /usr/include/c++/15/mutex \
- /usr/include/c++/15/bits/chrono.h /usr/include/c++/15/ratio \
- /usr/include/c++/15/ctime /usr/include/c++/15/bits/parse_numbers.h \
- /usr/include/c++/15/bits/std_mutex.h \
- /usr/include/c++/15/bits/unique_lock.h \
- /usr/include/google/protobuf/stubs/once.h \
+ /usr/include/google/protobuf/stubs/mutex.h \
+ /usr/include/google/protobuf/stubs/once.h /usr/include/c++/15/utility \
+ /usr/include/c++/15/bits/stl_relops.h \
  /usr/include/google/protobuf/port.h \
  /home/wangt/chat/src/mprpc/include/mprpcapplication.h \
  /home/wangt/chat/src/mprpc/include/mprpcconfig.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/net/TcpServer.h \
- /home/wangt/chat/third_party/muduo-pic/include/muduo/base/Atomic.h \
  /home/wangt/chat/src/mprpc/include/zookeeperutil.h \
  /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /usr/include/zookeeper/zookeeper.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/zookeeper/proto.h \
+ /usr/include/zookeeper/zookeeper.h /usr/include/zookeeper/proto.h \
  /usr/include/zookeeper/zookeeper_version.h \
  /usr/include/zookeeper/recordio.h \
  /usr/include/zookeeper/zookeeper.jute.h \
- /home/wangt/chat/src/mprpc/src/../logsys/include/LogFile.hpp \
- /home/wangt/chat/src/mprpc/src/../logsys/include/AppendFile.hpp \
- /home/wangt/chat/src/mprpc/src/../logsys/include/Logger.hpp \
- /home/wangt/chat/src/mprpc/src/../logsys/include/LogMessage.hpp \
- /home/wangt/chat/src/mprpc/src/../logsys/include/LogCommon.hpp \
- /home/wangt/chat/src/mprpc/src/../logsys/include/Timestamp.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/LogFile.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/AppendFile.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/Logger.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/LogMessage.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/LogCommon.hpp \
+ /home/wangt/chat/src/logsystem/logsys/include/Timestamp.hpp \
  /usr/include/c++/15/sstream /usr/include/c++/15/bits/sstream.tcc \
  /home/wangt/chat/src/mprpc/src/rpcheader.pb.h \
  /usr/include/google/protobuf/io/coded_stream.h \
@@ -321,7 +301,6 @@ src/mprpc/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: \
  /usr/include/linux/limits.h \
  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
  /usr/include/google/protobuf/stubs/strutil.h \
  /usr/include/google/protobuf/arena.h \
  /usr/include/google/protobuf/arena_impl.h \
@@ -335,6 +314,7 @@ src/mprpc/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o: \
  /usr/include/google/protobuf/has_bits.h \
  /usr/include/google/protobuf/implicit_weak_message.h \
  /usr/include/google/protobuf/repeated_field.h \
+ /usr/include/c++/15/iterator /usr/include/c++/15/bits/stream_iterator.h \
  /usr/include/google/protobuf/repeated_ptr_field.h \
  /usr/include/google/protobuf/wire_format_lite.h \
  /usr/include/google/protobuf/stubs/casts.h \

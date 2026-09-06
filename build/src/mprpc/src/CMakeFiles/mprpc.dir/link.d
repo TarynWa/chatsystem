@@ -6,16 +6,10 @@
   CMakeFiles/mprpc.dir/rpcprovider.cpp.o \
   CMakeFiles/mprpc.dir/zookeeperutil.cpp.o \
   CMakeFiles/mprpc.dir/rpcheader.pb.cc.o \
-  CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o \
-  CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o \
-  CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o \
-  CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o \
-  CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o \
-  CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o \
-  /home/wangt/chat/third_party/muduo-pic/lib/libmuduo_net.a \
-  /home/wangt/chat/third_party/muduo-pic/lib/libmuduo_base.a \
+  /home/wangt/chat/lib/libnwl.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libprotobuf.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libzookeeper_mt.so \
+  /home/wangt/chat/lib/libmuduo_log.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libm.so \
@@ -55,25 +49,13 @@ CMakeFiles/mprpc.dir/zookeeperutil.cpp.o:
 
 CMakeFiles/mprpc.dir/rpcheader.pb.cc.o:
 
-CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o:
-
-CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o:
-
-CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o:
-
-CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o:
-
-CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o:
-
-CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o:
-
-/home/wangt/chat/third_party/muduo-pic/lib/libmuduo_net.a:
-
-/home/wangt/chat/third_party/muduo-pic/lib/libmuduo_base.a:
+/home/wangt/chat/lib/libnwl.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libprotobuf.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/libzookeeper_mt.so:
+
+/home/wangt/chat/lib/libmuduo_log.so:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so:
 

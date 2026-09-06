@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/nwl_bench_client.dir/link.d CMakeFiles/nwl_bench_client.dir/examples/echo_bench_client.cpp.o -o nwl_bench_client

@@ -142,103 +142,13 @@ src/mprpc/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/rpcheader.pb.cc.s"
 	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/src/rpcheader.pb.cc -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.s
 
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/flags.make
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o: /home/wangt/chat/src/mprpc/logsys/src/AppendFile.cpp
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o -MF CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o.d -o CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o -c /home/wangt/chat/src/mprpc/logsys/src/AppendFile.cpp
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.i"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangt/chat/src/mprpc/logsys/src/AppendFile.cpp > CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.i
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.s"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/logsys/src/AppendFile.cpp -o CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.s
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/flags.make
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o: /home/wangt/chat/src/mprpc/logsys/src/AsyncLogging.cpp
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o -MF CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o.d -o CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o -c /home/wangt/chat/src/mprpc/logsys/src/AsyncLogging.cpp
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.i"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangt/chat/src/mprpc/logsys/src/AsyncLogging.cpp > CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.i
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.s"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/logsys/src/AsyncLogging.cpp -o CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.s
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/flags.make
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o: /home/wangt/chat/src/mprpc/logsys/src/LogFile.cpp
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o -MF CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o.d -o CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o -c /home/wangt/chat/src/mprpc/logsys/src/LogFile.cpp
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.i"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangt/chat/src/mprpc/logsys/src/LogFile.cpp > CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.i
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.s"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/logsys/src/LogFile.cpp -o CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.s
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/flags.make
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o: /home/wangt/chat/src/mprpc/logsys/src/LogMessage.cpp
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o -MF CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o.d -o CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o -c /home/wangt/chat/src/mprpc/logsys/src/LogMessage.cpp
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.i"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangt/chat/src/mprpc/logsys/src/LogMessage.cpp > CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.i
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.s"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/logsys/src/LogMessage.cpp -o CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.s
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/flags.make
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o: /home/wangt/chat/src/mprpc/logsys/src/Logger.cpp
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o -MF CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o.d -o CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o -c /home/wangt/chat/src/mprpc/logsys/src/Logger.cpp
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.i"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangt/chat/src/mprpc/logsys/src/Logger.cpp > CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.i
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.s"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/logsys/src/Logger.cpp -o CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.s
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/flags.make
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o: /home/wangt/chat/src/mprpc/logsys/src/Timestamp.cpp
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o -MF CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o.d -o CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o -c /home/wangt/chat/src/mprpc/logsys/src/Timestamp.cpp
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.i"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wangt/chat/src/mprpc/logsys/src/Timestamp.cpp > CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.i
-
-src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.s"
-	cd /home/wangt/chat/build/src/mprpc/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wangt/chat/src/mprpc/logsys/src/Timestamp.cpp -o CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.s
-
 # Object files for target mprpc
 mprpc_OBJECTS = \
 "CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" \
 "CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" \
 "CMakeFiles/mprpc.dir/rpcprovider.cpp.o" \
 "CMakeFiles/mprpc.dir/zookeeperutil.cpp.o" \
-"CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" \
-"CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o" \
-"CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o" \
-"CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o" \
-"CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o" \
-"CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o" \
-"CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o"
+"CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
 
 # External object files for target mprpc
 mprpc_EXTERNAL_OBJECTS =
@@ -248,18 +158,12 @@ mprpc_EXTERNAL_OBJECTS =
 /home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/rpcprovider.cpp.o
 /home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/zookeeperutil.cpp.o
 /home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o
-/home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o
-/home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o
-/home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o
-/home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o
-/home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o
-/home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o
 /home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/build.make
 /home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/compiler_depend.ts
-/home/wangt/chat/lib/libmprpc.so: /home/wangt/chat/third_party/muduo-pic/lib/libmuduo_net.a
-/home/wangt/chat/lib/libmprpc.so: /home/wangt/chat/third_party/muduo-pic/lib/libmuduo_base.a
+/home/wangt/chat/lib/libmprpc.so: /home/wangt/chat/lib/libnwl.so
+/home/wangt/chat/lib/libmprpc.so: /home/wangt/chat/lib/libmuduo_log.so
 /home/wangt/chat/lib/libmprpc.so: src/mprpc/src/CMakeFiles/mprpc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library /home/wangt/chat/lib/libmprpc.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/wangt/chat/lib/libmprpc.so"
 	cd /home/wangt/chat/build/src/mprpc/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mprpc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

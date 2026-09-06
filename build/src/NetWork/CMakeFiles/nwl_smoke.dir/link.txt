@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/nwl_smoke.dir/link.d CMakeFiles/nwl_smoke.dir/examples/smoke_eventloop.cpp.o -o nwl_smoke  -Wl,-rpath,/home/wangt/chat/lib /home/wangt/chat/lib/libnwl.so /home/wangt/chat/lib/libmuduo_log.so

@@ -8,12 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/wangt/chat/src/mprpc/logsys/src/AppendFile.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AppendFile.cpp.o.d"
-  "/home/wangt/chat/src/mprpc/logsys/src/AsyncLogging.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/AsyncLogging.cpp.o.d"
-  "/home/wangt/chat/src/mprpc/logsys/src/LogFile.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogFile.cpp.o.d"
-  "/home/wangt/chat/src/mprpc/logsys/src/LogMessage.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/LogMessage.cpp.o.d"
-  "/home/wangt/chat/src/mprpc/logsys/src/Logger.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Logger.cpp.o.d"
-  "/home/wangt/chat/src/mprpc/logsys/src/Timestamp.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/__/logsys/src/Timestamp.cpp.o.d"
   "/home/wangt/chat/src/mprpc/src/mprpcapplication.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/mprpcapplication.cpp.o.d"
   "/home/wangt/chat/src/mprpc/src/mprpcconfig.cpp" "src/mprpc/src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/mprpcconfig.cpp.o.d"
   "/home/wangt/chat/src/mprpc/src/rpcheader.pb.cc" "src/mprpc/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o" "gcc" "src/mprpc/src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o.d"
