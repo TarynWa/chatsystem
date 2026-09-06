@@ -1,0 +1,12 @@
+[submodule "src/NetWork"]
+	path = src/NetWork
+	url = git@github.com:TarynWa/NetWork.git
+[submodule "src/mprpc"]
+	path = src/mprpc
+	url = git@github.com:TarynWa/MPRPC.git
+[submodule "src/logsystem"]
+	path = src/logsystem
+	url = git@github.com:TarynWa/LogSystem.git
+[submodule "src/threadpool"]
+	path = src/threadpool
+	url = git@github.com:TarynWa/ThreadPool.git
