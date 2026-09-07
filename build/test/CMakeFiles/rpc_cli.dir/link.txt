@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/rpc_cli.dir/link.d CMakeFiles/rpc_cli.dir/rpc_cli.cpp.o CMakeFiles/rpc_cli.dir/user.pb.cc.o -o /home/wangt/chat/bin/rpc_cli  -Wl,-rpath,/home/wangt/chat/lib /home/wangt/chat/lib/libmprpc.so /home/wangt/chat/lib/libnwl.so /home/wangt/chat/lib/libmuduo_log.so -lprotobuf -lzookeeper_mt

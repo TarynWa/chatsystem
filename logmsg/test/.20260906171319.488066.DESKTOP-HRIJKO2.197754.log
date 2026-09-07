@@ -1,0 +1,20 @@
+2026/09/06/17:13:19.488374Z INFO /home/wangt/chat/test/test.cpp main 40 AsyncLogging test
+2026/09/06/17:13:19.488614Z INFO /home/wangt/chat/test/test.cpp main 41 AsyncLogging test endl
+2026/09/06/17:13:19.488798Z INFO /home/wangt/chat/test/test.cpp main 43 Network test
+2026/09/06/17:13:19.489047Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp EventLoop 39 EventLoop created 0x7ffed4dbf440
+2026/09/06/17:13:19.489185Z INFO /home/wangt/chat/src/NetWork/src/net/TcpServer.cpp TcpServer 21 TcpServer [test] created at 127.0.0.1:8000
+2026/09/06/17:13:19.489398Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp EventLoop 39 EventLoop created 0x7318665fdc90
+2026/09/06/17:13:19.489479Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp loop 59 EventLoop 0x7318665fdc90 start looping in thread 126548633970368
+2026/09/06/17:13:19.489532Z INFO /home/wangt/chat/src/NetWork/src/net/EventLoopThreadPool.cpp start 21 EventLoopThread #0 of pool 'test-pool' started
+2026/09/06/17:13:19.489804Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp EventLoop 39 EventLoop created 0x731865dfcc90
+2026/09/06/17:13:19.489883Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp loop 59 EventLoop 0x731865dfcc90 start looping in thread 126548625577664
+2026/09/06/17:13:19.490077Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp EventLoop 39 EventLoop created 0x7318655fbc90
+2026/09/06/17:13:19.490149Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp loop 59 EventLoop 0x7318655fbc90 start looping in thread 126548617184960
+2026/09/06/17:13:19.490326Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp EventLoop 39 EventLoop created 0x731864dfac90
+2026/09/06/17:13:19.490413Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp loop 59 EventLoop 0x731864dfac90 start looping in thread 126548608792256
+2026/09/06/17:13:19.490423Z INFO /home/wangt/chat/src/NetWork/src/net/EventLoopThreadPool.cpp start 21 EventLoopThread #3 of pool 'test-pool' started
+2026/09/06/17:13:19.490509Z INFO /home/wangt/chat/src/NetWork/src/net/Acceptor.cpp listen 37 Acceptor listening on 127.0.0.1:8000
+2026/09/06/17:13:19.490544Z INFO /home/wangt/chat/src/NetWork/src/net/TcpServer.cpp start 46 TcpServer [test] started with 4 io thread(s)
+2026/09/06/17:13:19.490573Z INFO /home/wangt/chat/src/NetWork/src/core/EventLoop.cpp loop 59 EventLoop 0x7ffed4dbf440 start looping in thread 126548649401280
+2026/09/06/17:13:22.275549Z INFO /home/wangt/chat/test/test.cpp messageCallback 25 Received 14 bytes from 127.0.0.1:38186 at 1788686002.275479Z
+2026/09/06/17:13:22.275914Z INFO /home/wangt/chat/test/test.cpp connectedCallback 19 Connection test#1 is down

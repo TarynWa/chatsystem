@@ -6,7 +6,8 @@
 		"/home/wangt/chat/build/src/NetWork/cmake_install.cmake",
 		"/home/wangt/chat/build/src/threadpool/cmake_install.cmake",
 		"/home/wangt/chat/build/src/mprpc/cmake_install.cmake",
-		"/home/wangt/chat/build/src/mprpc/src/cmake_install.cmake"
+		"/home/wangt/chat/build/src/mprpc/src/cmake_install.cmake",
+		"/home/wangt/chat/build/test/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

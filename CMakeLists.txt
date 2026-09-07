@@ -7,6 +7,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 所有模块动态库统一输出到项目根目录 lib/
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/lib)
 
+# 设置输出的可执行文件路径
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
+
 # 日志模块   -> libmuduo_log.so
 add_subdirectory(src/logsystem)
 
@@ -18,3 +21,6 @@ add_subdirectory(src/threadpool)
 
 # RPC       -> libmprpc.so
 add_subdirectory(src/mprpc)
+
+# 测试模块
+add_subdirectory(test)

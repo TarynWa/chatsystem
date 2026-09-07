@@ -14,3 +14,9 @@
 /home/wangt/chat/build/src/mprpc/src/CMakeFiles/mprpc.dir
 /home/wangt/chat/build/src/mprpc/src/CMakeFiles/edit_cache.dir
 /home/wangt/chat/build/src/mprpc/src/CMakeFiles/rebuild_cache.dir
+/home/wangt/chat/build/test/CMakeFiles/test.dir
+/home/wangt/chat/build/test/CMakeFiles/test1.dir
+/home/wangt/chat/build/test/CMakeFiles/rpc_ser.dir
+/home/wangt/chat/build/test/CMakeFiles/rpc_cli.dir
+/home/wangt/chat/build/test/CMakeFiles/edit_cache.dir
+/home/wangt/chat/build/test/CMakeFiles/rebuild_cache.dir

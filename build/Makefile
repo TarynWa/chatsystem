@@ -168,6 +168,58 @@ mprpc/fast:
 	$(MAKE) $(MAKESILENT) -f src/mprpc/src/CMakeFiles/mprpc.dir/build.make src/mprpc/src/CMakeFiles/mprpc.dir/build
 .PHONY : mprpc/fast
 
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
+#=============================================================================
+# Target rules for targets named test1
+
+# Build rule for target.
+test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
+.PHONY : test1
+
+# fast build rule for target.
+test1/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test1.dir/build.make test/CMakeFiles/test1.dir/build
+.PHONY : test1/fast
+
+#=============================================================================
+# Target rules for targets named rpc_ser
+
+# Build rule for target.
+rpc_ser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc_ser
+.PHONY : rpc_ser
+
+# fast build rule for target.
+rpc_ser/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_ser.dir/build.make test/CMakeFiles/rpc_ser.dir/build
+.PHONY : rpc_ser/fast
+
+#=============================================================================
+# Target rules for targets named rpc_cli
+
+# Build rule for target.
+rpc_cli: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpc_cli
+.PHONY : rpc_cli
+
+# fast build rule for target.
+rpc_cli/fast:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_cli.dir/build.make test/CMakeFiles/rpc_cli.dir/build
+.PHONY : rpc_cli/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,6 +231,10 @@ help:
 	@echo "... mprpc"
 	@echo "... muduo_log"
 	@echo "... nwl"
+	@echo "... rpc_cli"
+	@echo "... rpc_ser"
+	@echo "... test"
+	@echo "... test1"
 	@echo "... threadpool"
 .PHONY : help
 

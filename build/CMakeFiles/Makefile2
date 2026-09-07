@@ -67,6 +67,7 @@ all: src/logsystem/all
 all: src/NetWork/all
 all: src/threadpool/all
 all: src/mprpc/all
+all: test/all
 .PHONY : all
 
 # The main recursive "codegen" target.
@@ -74,6 +75,7 @@ codegen: src/logsystem/codegen
 codegen: src/NetWork/codegen
 codegen: src/threadpool/codegen
 codegen: src/mprpc/codegen
+codegen: test/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -81,6 +83,7 @@ preinstall: src/logsystem/preinstall
 preinstall: src/NetWork/preinstall
 preinstall: src/threadpool/preinstall
 preinstall: src/mprpc/preinstall
+preinstall: test/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -88,6 +91,7 @@ clean: src/logsystem/clean
 clean: src/NetWork/clean
 clean: src/threadpool/clean
 clean: src/mprpc/clean
+clean: test/clean
 .PHONY : clean
 
 #=============================================================================
@@ -186,6 +190,34 @@ src/threadpool/clean: src/threadpool/CMakeFiles/threadpool.dir/clean
 .PHONY : src/threadpool/clean
 
 #=============================================================================
+# Directory level rules for directory test
+
+# Recursive "all" directory target.
+test/all: test/CMakeFiles/test.dir/all
+test/all: test/CMakeFiles/test1.dir/all
+test/all: test/CMakeFiles/rpc_ser.dir/all
+test/all: test/CMakeFiles/rpc_cli.dir/all
+.PHONY : test/all
+
+# Recursive "codegen" directory target.
+test/codegen: test/CMakeFiles/test.dir/codegen
+test/codegen: test/CMakeFiles/test1.dir/codegen
+test/codegen: test/CMakeFiles/rpc_ser.dir/codegen
+test/codegen: test/CMakeFiles/rpc_cli.dir/codegen
+.PHONY : test/codegen
+
+# Recursive "preinstall" directory target.
+test/preinstall:
+.PHONY : test/preinstall
+
+# Recursive "clean" directory target.
+test/clean: test/CMakeFiles/test.dir/clean
+test/clean: test/CMakeFiles/test1.dir/clean
+test/clean: test/CMakeFiles/rpc_ser.dir/clean
+test/clean: test/CMakeFiles/rpc_cli.dir/clean
+.PHONY : test/clean
+
+#=============================================================================
 # Target rules for target src/logsystem/CMakeFiles/muduo_log.dir
 
 # All Build rule for target.
@@ -256,7 +288,7 @@ src/NetWork/CMakeFiles/nwl.dir/clean:
 src/threadpool/CMakeFiles/threadpool.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/threadpool/CMakeFiles/threadpool.dir/build.make src/threadpool/CMakeFiles/threadpool.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/threadpool/CMakeFiles/threadpool.dir/build.make src/threadpool/CMakeFiles/threadpool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=28,29 "Built target threadpool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=38,39 "Built target threadpool"
 .PHONY : src/threadpool/CMakeFiles/threadpool.dir/all
 
 # Build rule for subdir invocation for target.
@@ -273,7 +305,7 @@ threadpool: src/threadpool/CMakeFiles/threadpool.dir/rule
 # codegen rule for target.
 src/threadpool/CMakeFiles/threadpool.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f src/threadpool/CMakeFiles/threadpool.dir/build.make src/threadpool/CMakeFiles/threadpool.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=28,29 "Finished codegen for target threadpool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=38,39 "Finished codegen for target threadpool"
 .PHONY : src/threadpool/CMakeFiles/threadpool.dir/codegen
 
 # clean rule for target.
@@ -313,6 +345,140 @@ src/mprpc/src/CMakeFiles/mprpc.dir/codegen:
 src/mprpc/src/CMakeFiles/mprpc.dir/clean:
 	$(MAKE) $(MAKESILENT) -f src/mprpc/src/CMakeFiles/mprpc.dir/build.make src/mprpc/src/CMakeFiles/mprpc.dir/clean
 .PHONY : src/mprpc/src/CMakeFiles/mprpc.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test.dir
+
+# All Build rule for target.
+test/CMakeFiles/test.dir/all: src/logsystem/CMakeFiles/muduo_log.dir/all
+test/CMakeFiles/test.dir/all: src/NetWork/CMakeFiles/nwl.dir/all
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=34,35 "Built target test"
+.PHONY : test/CMakeFiles/test.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/test.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 23
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/test.dir/rule
+
+# Convenience name for target.
+test: test/CMakeFiles/test.dir/rule
+.PHONY : test
+
+# codegen rule for target.
+test/CMakeFiles/test.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=34,35 "Finished codegen for target test"
+.PHONY : test/CMakeFiles/test.dir/codegen
+
+# clean rule for target.
+test/CMakeFiles/test.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/clean
+.PHONY : test/CMakeFiles/test.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/test1.dir
+
+# All Build rule for target.
+test/CMakeFiles/test1.dir/all: src/logsystem/CMakeFiles/muduo_log.dir/all
+test/CMakeFiles/test1.dir/all: src/NetWork/CMakeFiles/nwl.dir/all
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test1.dir/build.make test/CMakeFiles/test1.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test1.dir/build.make test/CMakeFiles/test1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=36,37 "Built target test1"
+.PHONY : test/CMakeFiles/test1.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/test1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 23
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/test1.dir/rule
+
+# Convenience name for target.
+test1: test/CMakeFiles/test1.dir/rule
+.PHONY : test1
+
+# codegen rule for target.
+test/CMakeFiles/test1.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test1.dir/build.make test/CMakeFiles/test1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=36,37 "Finished codegen for target test1"
+.PHONY : test/CMakeFiles/test1.dir/codegen
+
+# clean rule for target.
+test/CMakeFiles/test1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test1.dir/build.make test/CMakeFiles/test1.dir/clean
+.PHONY : test/CMakeFiles/test1.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/rpc_ser.dir
+
+# All Build rule for target.
+test/CMakeFiles/rpc_ser.dir/all: src/logsystem/CMakeFiles/muduo_log.dir/all
+test/CMakeFiles/rpc_ser.dir/all: src/NetWork/CMakeFiles/nwl.dir/all
+test/CMakeFiles/rpc_ser.dir/all: src/mprpc/src/CMakeFiles/mprpc.dir/all
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_ser.dir/build.make test/CMakeFiles/rpc_ser.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_ser.dir/build.make test/CMakeFiles/rpc_ser.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=31,32,33 "Built target rpc_ser"
+.PHONY : test/CMakeFiles/rpc_ser.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/rpc_ser.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 30
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/rpc_ser.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/rpc_ser.dir/rule
+
+# Convenience name for target.
+rpc_ser: test/CMakeFiles/rpc_ser.dir/rule
+.PHONY : rpc_ser
+
+# codegen rule for target.
+test/CMakeFiles/rpc_ser.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_ser.dir/build.make test/CMakeFiles/rpc_ser.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=31,32,33 "Finished codegen for target rpc_ser"
+.PHONY : test/CMakeFiles/rpc_ser.dir/codegen
+
+# clean rule for target.
+test/CMakeFiles/rpc_ser.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_ser.dir/build.make test/CMakeFiles/rpc_ser.dir/clean
+.PHONY : test/CMakeFiles/rpc_ser.dir/clean
+
+#=============================================================================
+# Target rules for target test/CMakeFiles/rpc_cli.dir
+
+# All Build rule for target.
+test/CMakeFiles/rpc_cli.dir/all: src/logsystem/CMakeFiles/muduo_log.dir/all
+test/CMakeFiles/rpc_cli.dir/all: src/NetWork/CMakeFiles/nwl.dir/all
+test/CMakeFiles/rpc_cli.dir/all: src/mprpc/src/CMakeFiles/mprpc.dir/all
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_cli.dir/build.make test/CMakeFiles/rpc_cli.dir/depend
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_cli.dir/build.make test/CMakeFiles/rpc_cli.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=28,29,30 "Built target rpc_cli"
+.PHONY : test/CMakeFiles/rpc_cli.dir/all
+
+# Build rule for subdir invocation for target.
+test/CMakeFiles/rpc_cli.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 30
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/rpc_cli.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wangt/chat/build/CMakeFiles 0
+.PHONY : test/CMakeFiles/rpc_cli.dir/rule
+
+# Convenience name for target.
+rpc_cli: test/CMakeFiles/rpc_cli.dir/rule
+.PHONY : rpc_cli
+
+# codegen rule for target.
+test/CMakeFiles/rpc_cli.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_cli.dir/build.make test/CMakeFiles/rpc_cli.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wangt/chat/build/CMakeFiles --progress-num=28,29,30 "Finished codegen for target rpc_cli"
+.PHONY : test/CMakeFiles/rpc_cli.dir/codegen
+
+# clean rule for target.
+test/CMakeFiles/rpc_cli.dir/clean:
+	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/rpc_cli.dir/build.make test/CMakeFiles/rpc_cli.dir/clean
+.PHONY : test/CMakeFiles/rpc_cli.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

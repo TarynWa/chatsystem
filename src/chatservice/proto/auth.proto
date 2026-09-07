@@ -1,0 +1,95 @@
+// 认证服务业务接口（S0：注册/登录/校验/登出）
+// 编译产物 gen/auth.pb.{h,cc} 由 CMake 在构建时用 protoc 生成。
+// proto3 + cc_generic_services=true：与底座 test/user.proto 风格一致，走反射派发。
+syntax = "proto3";
+
+package chatservice;
+option cc_generic_services = true;
+
+// 通用回包结果。code 语义见 common/errcode.h
+message Result {
+  int32 code = 1;
+  string msg = 2;
+}
+
+// 设备信息（随登录/注册上报）
+message DeviceInfo {
+  string device_id   = 1; // 设备唯一标识, 服务端校验 ^[A-Za-z0-9_.-]{1,64}$
+  string device_name = 2;
+  int32  device_type = 3; // 0未知/1iOS/2Android/3Web/4PC
+  string os_version  = 4;
+  string app_version = 5;
+}
+
+// 会话凭证（S0 占位实现；M2 起 access 换 JWT、refresh 轮换）
+message TokenPair {
+  string access_token  = 1;
+  int32  access_expires_in = 2; // 秒
+  string refresh_token = 3;
+  int32  refresh_expires_in = 4; // 秒
+}
+
+// 用户公开信息
+message UserBrief {
+  uint64 user_id = 1;
+  string username = 2;
+  string nickname = 3;
+  string avatar   = 4;
+  int32  status   = 5;
+}
+
+// ---------------- 注册 Register ----------------
+message RegisterRequest {
+  string username = 1;                 // 3~32, ^[A-Za-z][A-Za-z0-9_]*$
+  string password = 2;                 // 8~32, 字母+数字
+  string nickname = 3;                 // 缺省=username
+  string email    = 4;                 // 本期可空, 不做唯一/验证码
+  string phone    = 5;                 // 本期可空
+  DeviceInfo device = 6;               // 注册成功默认自动登录所用设备
+}
+message RegisterResponse {
+  Result result = 1;
+  uint64 user_id = 2;
+  TokenPair tokens = 3;                // 自动登录下发
+  UserBrief user = 4;
+}
+
+// ---------------- 登录 Login ----------------
+message LoginRequest {
+  string account    = 1; // username/email/phone 三选一（服务端按格式识别）
+  string password   = 2;
+  DeviceInfo device = 3;
+  string ip         = 4; // 仅审计
+  string user_agent = 5; // 仅审计
+}
+message LoginResponse {
+  Result result = 1;
+  TokenPair tokens = 2;
+  UserBrief user = 3;
+}
+
+// ---------------- 校验 VerifyToken ----------------
+message VerifyTokenRequest {
+  string token = 1;
+}
+message VerifyTokenResponse {
+  Result result = 1;
+  bool   valid   = 2;
+  uint64 user_id = 3;
+  string device_id = 4;
+}
+
+// ---------------- 登出 Logout ----------------
+message LogoutRequest {
+  string token = 1;
+}
+message LogoutResponse {
+  Result result = 1;
+}
+
+service AuthServiceRpc {
+  rpc Register(RegisterRequest) returns (RegisterResponse);
+  rpc Login(LoginRequest) returns (LoginResponse);
+  rpc VerifyToken(VerifyTokenRequest) returns (VerifyTokenResponse);
+  rpc Logout(LogoutRequest) returns (LogoutResponse);
+}

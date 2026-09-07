@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/test.dir/link.d CMakeFiles/test.dir/test.cpp.o -o /home/wangt/chat/bin/test  -Wl,-rpath,/home/wangt/chat/lib /home/wangt/chat/lib/libnwl.so /home/wangt/chat/lib/libmuduo_log.so

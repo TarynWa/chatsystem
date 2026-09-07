@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+c4352f3cbfea53aeb30f6ddf180ad6bd gen/auth.pb.cc
