@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/wangt/chat/src/chatservice/lib/libchatauth_proto.a CMakeFiles/chatauth_proto.dir/gen/auth.pb.cc.o
-/usr/bin/ranlib /home/wangt/chat/src/chatservice/lib/libchatauth_proto.a

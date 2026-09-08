@@ -1,6 +1,0 @@
-/home/wangt/chat/build/chatservice/CMakeFiles/chatauth_proto.dir
-/home/wangt/chat/build/chatservice/CMakeFiles/chatauth_core.dir
-/home/wangt/chat/build/chatservice/CMakeFiles/auth_server.dir
-/home/wangt/chat/build/chatservice/CMakeFiles/auth_cli.dir
-/home/wangt/chat/build/chatservice/CMakeFiles/edit_cache.dir
-/home/wangt/chat/build/chatservice/CMakeFiles/rebuild_cache.dir
