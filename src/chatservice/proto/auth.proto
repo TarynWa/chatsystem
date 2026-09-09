@@ -1,16 +1,13 @@
 // 认证服务业务接口（S0：注册/登录/校验/登出）
 // 编译产物 gen/auth.pb.{h,cc} 由 CMake 在构建时用 protoc 生成。
 // proto3 + cc_generic_services=true：与底座 test/user.proto 风格一致，走反射派发。
+// Result 已抽到 common.proto(与 msg/social 共享唯一定义, 避免重复符号)。
 syntax = "proto3";
 
 package chatservice;
 option cc_generic_services = true;
 
-// 通用回包结果。code 语义见 common/errcode.h
-message Result {
-  int32 code = 1;
-  string msg = 2;
-}
+import "common.proto";
 
 // 设备信息（随登录/注册上报）
 message DeviceInfo {

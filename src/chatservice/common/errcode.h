@@ -22,6 +22,17 @@ enum ErrCode {
   ERR_TOKEN_INVALID = 1201, // token 无效或已吊销
   ERR_TOKEN_EXPIRED = 1202, // access 过期(暂未区分)
   ERR_DEVICE_LIMIT = 1204,  // 设备数超上限
+  // 消息(14xx)
+  ERR_MSG_SELF = 1401,      // 不能给自己发消息
+  // 社交(15xx)
+  ERR_ALREADY_FRIEND = 1501,   // 已是好友
+  ERR_REQUEST_PENDING = 1502,  // 已存在未处理申请
+  ERR_REQUEST_INVALID = 1503,  // 申请不存在或已处理
+  ERR_REQUEST_EXPIRED = 1504,  // 申请已过期
+  ERR_REQUEST_FORBIDDEN = 1505, // 无权处理(非接收人)
+  ERR_SELF_OP = 1506,      // 不能对自己操作
+  ERR_BLOCKED_BY_PEER = 1507,  // 你在对方黑名单
+  ERR_BLOCKED_PEER = 1508,     // 你已拉黑对方
 };
 
 // 错误码 -> 人读文案(回填 Result.msg)
@@ -40,6 +51,15 @@ inline const char* ErrText(int code) {
     case ERR_TOKEN_INVALID: return "token invalid or revoked";
     case ERR_TOKEN_EXPIRED: return "token expired";
     case ERR_DEVICE_LIMIT: return "device limit reached";
+    case ERR_MSG_SELF: return "cannot send message to self";
+    case ERR_ALREADY_FRIEND: return "already friends";
+    case ERR_REQUEST_PENDING: return "request already pending";
+    case ERR_REQUEST_INVALID: return "request not exist or already handled";
+    case ERR_REQUEST_EXPIRED: return "request expired";
+    case ERR_REQUEST_FORBIDDEN: return "not allowed to handle this request";
+    case ERR_SELF_OP: return "cannot operate on self";
+    case ERR_BLOCKED_BY_PEER: return "you are blocked by the peer";
+    case ERR_BLOCKED_PEER: return "you have blocked the peer";
     default: return "unknown error";
   }
 }

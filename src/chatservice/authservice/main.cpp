@@ -7,8 +7,8 @@
 
 #include "auth.pb.h"
 #include "authservice/authservice_impl.h"
-#include "authservice/cache/redis_pool.h"
-#include "authservice/dao/db_pool.h"
+#include "base/redis_pool.h"
+#include "base/db_pool.h"
 #include "authservice/service/session_service.h"
 #include "mprpcapplication.h"
 #include "mprpcconfig.h"

@@ -1,6 +1,6 @@
 #include "authservice/service/user_service.h"
 
-#include "authservice/dao/db_pool.h"
+#include "base/db_pool.h"
 #include "authservice/dao/user_dao.h"
 #include "common/errcode.h"
 

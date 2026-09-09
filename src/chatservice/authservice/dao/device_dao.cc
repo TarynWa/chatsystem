@@ -1,6 +1,6 @@
 #include "authservice/dao/device_dao.h"
 
-#include "authservice/dao/sqlutil.h"
+#include "base/sqlutil.h"
 
 namespace chatservice::dao {
 

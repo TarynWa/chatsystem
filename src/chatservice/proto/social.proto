@@ -1,0 +1,99 @@
+// 社交服务(S0 最小闭环): 好友(申请/处理/列表/删除) + 黑名单(加/列表/移除)
+// 好友写口径(S0): friends 行只在"接受"事务里双向建 status=1;
+//   pending 只落 friend_requests(status=0, 3 天过期); 删除=两侧软删 status=3;
+//   friends.status 0待/2拒 状态机与 TCC 场景留后续(db/README 场景4)。
+// 鉴权: S0 信任调用方 uid(请求带 user_id), token 下放 RpcHeader 属 M4;
+//   不校验对方 users 是否存在(im_social 连不到 im_auth, 由未来网关保证)。
+syntax = "proto3";
+
+package chatservice;
+option cc_generic_services = true;
+
+import "common.proto";
+
+message FriendItem {
+  uint64 friend_id  = 1;
+  string remark     = 2; // 我侧备注(本期恒空)
+  string apply_msg  = 3; // 成为好友时的申请语
+  string created_at = 4; // 取 friends.confirm_at(成为好友时间)
+}
+
+message BlackItem {
+  uint64 blocked_user_id = 1;
+  string reason          = 2;
+  string created_at      = 3;
+}
+
+// ---------------- 发好友申请 AddFriend ----------------
+message AddFriendRequest {
+  uint64 from_user = 1; // 申请人, S0 信任调用方
+  uint64 to_user   = 2; // 被申请人
+  string apply_msg = 3; // <=255
+}
+message AddFriendResponse {
+  Result result     = 1;
+  uint64 request_id = 2; // 回给客户端, 后续处理凭此 id
+  string expire_at  = 3;
+}
+
+// ---------------- 处理申请 HandleFriend ----------------
+message HandleFriendRequest {
+  uint64 handler_id = 1; // 处理人=被申请人(to_user), 服务端校验
+  uint64 request_id = 2;
+  int32  action     = 3; // 1接受 / 2拒绝
+}
+message HandleFriendResponse {
+  Result result = 1;
+}
+
+// ---------------- 好友列表 ListFriends(status=1 双向已确认) ----------------
+message ListFriendsRequest {
+  uint64 user_id = 1;
+}
+message ListFriendsResponse {
+  Result result = 1;
+  repeated FriendItem friends = 2;
+}
+
+// ---------------- 删除好友 DeleteFriend(两侧软删 status=3) ----------------
+message DeleteFriendRequest {
+  uint64 user_id   = 1;
+  uint64 friend_id = 2;
+}
+message DeleteFriendResponse {
+  Result result = 1;
+}
+
+// ---------------- 黑名单: 加 / 列表 / 移除 ----------------
+message AddBlacklistRequest {
+  uint64 user_id         = 1; // 拉黑操作者
+  uint64 blocked_user_id = 2;
+  string reason          = 3; // <=255
+}
+message AddBlacklistResponse {
+  Result result = 1;
+}
+message ListBlacklistRequest {
+  uint64 user_id = 1;
+}
+message ListBlacklistResponse {
+  Result result = 1;
+  repeated BlackItem list = 2;
+}
+message RemoveBlacklistRequest {
+  uint64 user_id         = 1;
+  uint64 blocked_user_id = 2;
+}
+message RemoveBlacklistResponse {
+  Result result = 1;
+}
+
+service SocialServiceRpc {
+  rpc AddFriend(AddFriendRequest) returns (AddFriendResponse);
+  rpc HandleFriend(HandleFriendRequest) returns (HandleFriendResponse);
+  rpc ListFriends(ListFriendsRequest) returns (ListFriendsResponse);
+  rpc DeleteFriend(DeleteFriendRequest) returns (DeleteFriendResponse);
+  rpc AddBlacklist(AddBlacklistRequest) returns (AddBlacklistResponse);
+  rpc ListBlacklist(ListBlacklistRequest) returns (ListBlacklistResponse);
+  rpc RemoveBlacklist(RemoveBlacklistRequest) returns (RemoveBlacklistResponse);
+}

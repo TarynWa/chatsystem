@@ -3,7 +3,7 @@
 #include <cstdio>
 #include <cstdlib>
 
-#include "authservice/cache/redis_pool.h"
+#include "base/redis_pool.h"
 
 namespace chatservice::cache {
 

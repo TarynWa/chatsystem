@@ -1,0 +1,177 @@
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:12:36,874:215740(0x788bf172e840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x788bf18d9cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:12:36,876:215740(0x788befbff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:12:36,963:215740(0x788befbff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c00007, negotiated timeout=30000 
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:15:47,450:217513(0x7f8eddf72840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:15:47,451:217513(0x7f8eddf72840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:15:47,451:217513(0x7f8eddf72840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x7f8ede108cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:15:47,452:217513(0x7f8edc3ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:15:47,466:217513(0x7f8edc3ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c00008, negotiated timeout=30000 
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:19:07,231:218993(0x744c64138840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x744c647a3cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:19:07,232:218993(0x744c629ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:19:07,241:218993(0x744c629ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c0000a, negotiated timeout=30000 
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:20:21,103:219447(0x7ea05670d840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x7ea0568a3cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:20:21,105:219447(0x7ea054bff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:20:21,107:219447(0x7ea054bff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c0000b, negotiated timeout=30000 
+2026-09-08 21:21:13,957:219800(0x73ce89f09840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:21:13,957:219800(0x73ce89f09840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:21:13,957:219800(0x73ce89f09840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:21:13,957:219800(0x73ce89f09840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:21:13,957:219800(0x73ce89f09840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:21:13,958:219800(0x73ce89f09840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:21:13,958:219800(0x73ce89f09840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:21:13,958:219800(0x73ce89f09840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:21:13,958:219800(0x73ce89f09840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x73ce89ff5cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:21:13,959:219800(0x73ce883ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:21:13,961:219800(0x73ce883ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c0000c, negotiated timeout=30000 
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:24:36,414:221256(0x7acc9b50f840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x7acc9b649cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:24:36,415:221256(0x7acc999ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:24:36,417:221256(0x7acc999ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c0000d, negotiated timeout=30000 
+2026-09-08 21:25:24,180:221607(0x72d9940ae840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:25:24,180:221609(0x73657bd33840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:25:24,180:221607(0x72d9940ae840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:25:24,180:221607(0x72d9940ae840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:25:24,180:221609(0x73657bd33840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:25:24,180:221607(0x72d9940ae840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:25:24,180:221607(0x72d9940ae840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:25:24,180:221609(0x73657bd33840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:25:24,180:221609(0x73657bd33840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:25:24,180:221609(0x73657bd33840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:25:24,180:221607(0x72d9940ae840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:25:24,180:221609(0x73657bd33840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:25:24,181:221607(0x72d9940ae840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:25:24,181:221607(0x72d9940ae840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:25:24,181:221607(0x72d9940ae840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x72d994621cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:25:24,181:221609(0x73657bd33840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:25:24,181:221609(0x73657bd33840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:25:24,181:221609(0x73657bd33840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x73657bec9cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:25:24,181:221608(0x7f515750f840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x7f5157674cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:25:24,182:221608(0x7f51559ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:25:24,183:221609(0x73657a1ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:25:24,183:221607(0x72d9929ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:25:24,191:221609(0x73657a1ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c0000e, negotiated timeout=30000 
+2026-09-08 21:25:24,191:221607(0x72d9929ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c0000f, negotiated timeout=30000 
+2026-09-08 21:25:24,193:221608(0x7f51559ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c00010, negotiated timeout=30000 
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:27:02,767:222694(0x79569c28a840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x79569c7e8cd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:27:02,767:222693(0x798276d04840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x798276e7ecd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1250: Client environment:zookeeper.version=zookeeper C client 3.9.5
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1254: Client environment:host.name=DESKTOP-HRIJKO2
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1261: Client environment:os.name=Linux
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1262: Client environment:os.arch=6.6.87.2-microsoft-standard-WSL2
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1263: Client environment:os.version=#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1271: Client environment:user.name=(null)
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1279: Client environment:user.home=/root
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@log_env@1291: Client environment:user.dir=/home/wangt/chat/src/chatservice
+2026-09-08 21:27:02,767:222695(0x7ed60aed6840):ZOO_INFO@zookeeper_init_internal@1335: Initiating client connection, host=127.0.0.1:2181 sessionTimeout=30000 watcher=0x7ed60b47ecd0 sessionId=0 sessionPasswd=<null> context=(nil) flags=0
+2026-09-08 21:27:02,767:222694(0x79569abff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:27:02,768:222693(0x7982751ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:27:02,768:222695(0x7ed6097ff6c0):ZOO_INFO@check_events@2988: initiated connection to server 127.0.0.1:2181
+2026-09-08 21:27:02,769:222693(0x7982751ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c00011, negotiated timeout=30000 
+2026-09-08 21:27:02,769:222695(0x7ed6097ff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c00012, negotiated timeout=30000 
+2026-09-08 21:27:02,775:222694(0x79569abff6c0):ZOO_INFO@finalize_session_establishment@2862: session establishment complete on server 127.0.0.1:2181, sessionId=0x100000010c00013, negotiated timeout=30000 
+2026-09-09 14:54:49,085:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@3007: Socket 127.0.0.1:2181 zk retcode=-4, errno=112(Host is down): failed while receiving a server response
+2026-09-09 14:54:49,086:222694(0x79569abff6c0):ZOO_ERROR@check_events@3007: Socket 127.0.0.1:2181 zk retcode=-4, errno=112(Host is down): failed while receiving a server response
+2026-09-09 14:54:49,087:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:49,087:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:49,088:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:49,088:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:49,087:222693(0x7982751ff6c0):ZOO_ERROR@check_events@3007: Socket 127.0.0.1:2181 zk retcode=-4, errno=112(Host is down): failed while receiving a server response
+2026-09-09 14:54:49,088:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:49,088:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:49,588:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:49,588:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:49,588:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:49,589:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:49,589:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:49,589:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:50,089:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:50,089:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:50,089:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:50,089:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:50,090:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:50,090:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:50,590:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:50,590:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:50,590:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:50,590:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:50,591:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:50,591:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:51,091:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:51,091:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:51,091:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:51,091:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:51,092:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:51,092:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:51,592:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:51,592:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:51,593:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:51,593:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:51,593:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:51,593:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:52,093:222695(0x7ed6097ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:52,093:222693(0x7982751ff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:52,094:222694(0x79569abff6c0):ZOO_ERROR@check_events@2981: Socket 127.0.0.1:2181 zk retcode=-4, errno=111(Connection refused): server refused to accept the client
+2026-09-09 14:54:52,094:222695(0x7ed6097ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:52,094:222693(0x7982751ff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]
+2026-09-09 14:54:52,094:222694(0x79569abff6c0):ZOO_WARN@zookeeper_interest@2562: Delaying connection after exhaustively trying all servers [127.0.0.1:2181]

@@ -2,7 +2,7 @@
 
 #include <cstring>
 
-#include "authservice/dao/sqlutil.h"
+#include "base/sqlutil.h"
 
 namespace chatservice::dao {
 

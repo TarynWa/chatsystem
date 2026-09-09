@@ -1,4 +1,4 @@
-#include "authservice/cache/redis_pool.h"
+#include "base/redis_pool.h"
 
 #include <chrono>
 #include <cstring>

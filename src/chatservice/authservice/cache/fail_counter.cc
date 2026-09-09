@@ -1,6 +1,6 @@
 #include "authservice/cache/fail_counter.h"
 
-#include "authservice/cache/redis_pool.h"
+#include "base/redis_pool.h"
 
 namespace chatservice::cache {
 

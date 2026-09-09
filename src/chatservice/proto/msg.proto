@@ -1,0 +1,64 @@
+// 消息服务(S0 单聊最小闭环): SendMsg / PullNewMsg(客户端拉取模型) / GetHistory
+// 实时触达: mprpc 短连接、无在线表 → send 只落库(历史+接收者 offline 收件箱),
+//           接收方主动 PullNewMsg 才算收到; 无推送。
+// 鉴权: S0 信任调用方 uid(请求带 from_user/user_id), token 下放 RpcHeader 属 M4。
+syntax = "proto3";
+
+package chatservice;
+option cc_generic_services = true;
+
+import "common.proto";
+
+// 单条单聊消息记录(发送回显/拉新/历史共用载荷)
+message MsgRecord {
+  uint64 msg_id     = 1; // 雪花, 全局唯一(历史分页游标用此值)
+  uint64 from_user  = 2; // 发送方
+  uint64 to_user    = 3; // 接收方
+  int32  msg_type   = 4; // 0文本/1图片/2语音/3视频/4文件/5位置/6表情
+  string content    = 5; // 文本内容(非文本型可空)
+  string media_urls = 6; // 媒体URL列表(JSON 串, 原样存 JSON 列)
+  string created_at = 7; // "YYYY-MM-DD HH:MM:SS"
+}
+
+// ---------------- 发消息 SendMsg ----------------
+message SendMsgRequest {
+  uint64 from_user  = 1; // S0 信任调用方; M4 起改由 RpcHeader.token 携带
+  uint64 to_user    = 2;
+  int32  msg_type   = 3;
+  string content    = 4;
+  string media_urls = 5;
+}
+message SendMsgResponse {
+  Result result     = 1;
+  uint64 msg_id     = 2;
+  string created_at = 3;
+}
+
+// ---------------- 拉取新消息 PullNewMsg(拉 offline_messages 收件箱) ----------------
+message PullNewMsgRequest {
+  uint64 user_id = 1; // 拉取者(接收者), S0 信任调用方
+  int32  limit   = 2; // <=0 视为 50; 服务端封顶 100
+}
+message PullNewMsgResponse {
+  Result result = 1;
+  repeated MsgRecord list = 2;
+}
+
+// ---------------- 聊天历史 GetHistory(双向会话, msg_id 游标分页) ----------------
+message GetHistoryRequest {
+  uint64 user_id   = 1; // 会话一方
+  uint64 peer_id   = 2; // 会话另一方
+  uint64 before_id = 3; // 0=最新一页; >0 取 msg_id<before_id 的更早
+  int32  limit     = 4; // <=0 视为 20; 服务端封顶 50
+}
+message GetHistoryResponse {
+  Result result = 1;
+  repeated MsgRecord list = 2;
+  bool has_more = 3; // 是否还有更早(供客户端决定是否再翻页)
+}
+
+service MsgServiceRpc {
+  rpc SendMsg(SendMsgRequest) returns (SendMsgResponse);
+  rpc PullNewMsg(PullNewMsgRequest) returns (PullNewMsgResponse);
+  rpc GetHistory(GetHistoryRequest) returns (GetHistoryResponse);
+}

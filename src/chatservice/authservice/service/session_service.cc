@@ -6,7 +6,7 @@
 #include "authservice/cache/fail_counter.h"
 #include "authservice/cache/session_cache.h"
 #include "authservice/dao/audit_dao.h"
-#include "authservice/dao/db_pool.h"
+#include "base/db_pool.h"
 #include "authservice/dao/device_dao.h"
 #include "authservice/dao/session_dao.h"
 #include "authservice/dao/user_dao.h"

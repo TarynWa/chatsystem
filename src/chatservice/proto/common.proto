@@ -1,0 +1,13 @@
+// 业务公共 message(S0 起 msg/social 与 auth 共享的唯一 Result 定义)。
+// auth.proto 原自带 Result, 已迁出以避免同 package 重名导致单库链接重复符号;
+// 各业务 proto 用 Result 一律 import "common.proto"。
+syntax = "proto3";
+
+package chatservice;
+option cc_generic_services = true;
+
+// 通用回包结果。code 语义见 common/errcode.h(跨服务共享唯一定义)
+message Result {
+  int32 code = 1;
+  string msg = 2;
+}

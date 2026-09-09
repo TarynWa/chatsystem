@@ -3,7 +3,7 @@
 #include <cstring>
 
 #include "common/errcode.h"
-#include "authservice/dao/sqlutil.h"
+#include "base/sqlutil.h"
 
 namespace chatservice::dao {
 

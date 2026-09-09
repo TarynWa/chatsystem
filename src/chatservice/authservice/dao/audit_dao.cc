@@ -1,7 +1,7 @@
 #include "authservice/dao/audit_dao.h"
 
-#include "authservice/dao/db_pool.h"
-#include "authservice/dao/sqlutil.h"
+#include "base/db_pool.h"
+#include "base/sqlutil.h"
 
 namespace chatservice::dao {
 
