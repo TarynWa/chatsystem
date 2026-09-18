@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/wangt/chat/cb/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

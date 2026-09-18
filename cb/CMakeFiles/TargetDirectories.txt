@@ -1,0 +1,3 @@
+/home/wangt/chat/cb/CMakeFiles/test.dir
+/home/wangt/chat/cb/CMakeFiles/edit_cache.dir
+/home/wangt/chat/cb/CMakeFiles/rebuild_cache.dir

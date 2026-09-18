@@ -82,7 +82,6 @@ chat/
 ### 4.2 `NetWork` (nwl) — 网络库 → `libnwl.so`
 
 命名空间 **`nwl`**，约 2100 行，把 muduo 的 `one-loop-per-thread` Reactor 核心在纯 Linux syscall 上重写了一遍。
-
 **线程模型**
 
 - 一个 **main loop**：只负责 `Acceptor` 监听与 accept，新连接按 **round-robin** 分发给 `EventLoopThreadPool` 中的某个 IO 线程（`setThreadNum(n)`；为 0 时全部连接落在主 loop）；
